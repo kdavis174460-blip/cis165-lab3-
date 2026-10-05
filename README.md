@@ -3,7 +3,8 @@ Course section: CIS-165-W099
 # Step-by-Step Process
 	diamond.ccp: 
     (1)Print the pattern using 7 codes of line 
-	(2) 
+	(2) Make sure to use "'\n'" in the output 
+	(3) Use the appropriate spaces for the pattern 
     
     game_time.cpp:
     (1)Store 2 values (78,144) in named constant variables
