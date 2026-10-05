@@ -1,17 +1,20 @@
 # cis165-lab3-
 Course section: CIS-165-W099
 # Step-by-Step Process
-	sum.ccp: 
-    Stores 2 values(50,100) in integer variables 
-    Use addition to add both values together and store it in a sum variable called total 
-    Display the total and label the output 
+	diamond.ccp: 
+    (1)Print the pattern using 7 codes of line 
+	(2) 
     
-    mpg.cpp:
-    Store 2 values (16,132) in double variables
-    16 stored as gallons 
-    132 stored as miles 
-    Use division to divide miles from gallons and store the result in a variable called milesPerGallon 
-    Display the result and label the output 
+    game_time.cpp:
+    (1)Store 2 values (78,144) in named constant variables
+    (2)78 stored as level 1 
+    (3)144 stored as level 2
+    (4)Use division to divide level 1/level 2 by 60 to find the hours 
+	(5)Use the remainder to find the minutes by using % 60
+	(6)Find the difference level 2 took by subtracting level 1 from level 2 
+	(7) Repeat 4-5 using the difference to find how long it took
+    (8)Display the result and label the output 
+	
 # Test Table 
 Restored it back to its original values, even though the test table also records other values.
 
@@ -19,7 +22,7 @@ Restored it back to its original values, even though the test table also records
 | Program | Value/Patterns Used | Expected Results | Actual Output | Match or Fix |
 | --- | --- | --- | --- |  --- |
 | **diamond.cpp** — assigned values | seven required lines | 150 | 150 | Match |
-| **game_time.cpp** — assigned values |78, 144 | 19.5 MPG | 19.5 MPG | Match |
+| **game_time.cpp** — assigned values |78, 144 | 1 hour and 18 mins; 2 hours and 24 mins; 1 hour and 6 mins | 1 hour and 18 mins; 2 hours and 24 mins; 1 hour and 6 mins | Match |
 | **game_time.cpp** — changed values | 87, 160 | 1 hour and 27 mins; 2 hours and 40 mins; 1 hour and 13 mins | 1 hour and 27 mins; 2 hours and 40 mins; 1 hour and 13 mins | Match |
 
 # How To Run The Program 
