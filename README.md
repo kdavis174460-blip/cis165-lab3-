@@ -5,6 +5,7 @@ Course section: CIS-165-W099
     (1)Print the pattern using 7 codes of line 
 	(2) Make sure to use "'\n'" in the output 
 	(3) Use the appropriate spaces for the pattern 
+		(a) In order of spaces used: 3,2,10,1,2,3
     
     _game_time.cpp:_
     (1)Store 2 values (78,144) in named constant variables
@@ -22,7 +23,7 @@ Restored it back to its original values, even though the test table also records
 
 | Program | Value/Patterns Used | Expected Results | Actual Output | Match or Fix |
 | --- | --- | --- | --- |  --- |
-| **diamond.cpp** — assigned values | seven required lines | 150 | 150 | Match |
+| **diamond.cpp** — assigned values | seven required lines | Spaces: 3,2,1,0,1,2,3 Stars: 1,3,5,7,5,3,1| Spaces: 3,2,1,0,1,2,3 Stars: 1,3,5,7,5,3,1 | Match |
 | **game_time.cpp** — assigned values |78, 144 | 1 hour and 18 mins; 2 hours and 24 mins; 1 hour and 6 mins | 1 hour and 18 mins; 2 hours and 24 mins; 1 hour and 6 mins | Match |
 | **game_time.cpp** — changed values | 87, 160 | 1 hour and 27 mins; 2 hours and 40 mins; 1 hour and 13 mins | 1 hour and 27 mins; 2 hours and 40 mins; 1 hour and 13 mins | Match |
 
