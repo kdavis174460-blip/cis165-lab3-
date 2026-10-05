@@ -1,12 +1,12 @@
 # cis165-lab3-
 Course section: CIS-165-W099
 # Step-by-Step Process
-	diamond.ccp: 
+	_diamond.ccp:_ 
     (1)Print the pattern using 7 codes of line 
 	(2) Make sure to use "'\n'" in the output 
 	(3) Use the appropriate spaces for the pattern 
     
-    game_time.cpp:
+    _game_time.cpp:_
     (1)Store 2 values (78,144) in named constant variables
     (2)78 stored as level 1 
     (3)144 stored as level 2
