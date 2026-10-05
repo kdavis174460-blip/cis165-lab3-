@@ -33,6 +33,6 @@ Restored it back to its original values, even though the test table also records
 	3.Make sure the language is C++ and click "Run" 
 
 # Explanation 
-Sum.ccp requires the code of two values (50 and 100) to get the sum. To do that, we store 50 as num1 and 100 as num2. In order to get the sum of the two values, we use the (+) operator, which is 150 and stored as total. To display the result, we use std::cout to print the value of total. The reason why we store the calculation in total before printing is to prevent any error when the program is calculating the result, and so it will have the value before displaying. 
+Each output statement in diamond.cpp writes a row of the diamond pattern using the stars. The spaces and the stars used are taken into account in the string. Also, the use of \n is needed in order to move onto the next line of output. When the output is displayed, together is should show the pattern. To check the spaces and lines I ran the program and compared it to the required spaces and lines needed to makes sure it was accurate.
 
 The formula used in mpg.cpp was miles/gallons in order to get the miles per gallon. The data type chosen was double variables so the result will preserve the fractional value and give the most accurate answer when using the formula. By using integer operands when performing in division, the fractional part of the result will not be shown and it will not give the most accurate answer for the miles per gallon. 
