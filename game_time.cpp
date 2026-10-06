@@ -9,16 +9,16 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include <iostream>
 
 int main() {
-    const int level1Min = 78;
-    const int level2Min = 144;
+    const int LEVEL1_MIN = 78;
+    const int LEVEL2_MIN = 144;
 
-    int level1Hours = level1Min / 60;
-    int level1RemainingMinutes = level1Min % 60;
+    int level1Hours = LEVEL1_MIN / 60;
+    int level1RemainingMinutes = LEVEL1_MIN % 60;
 
-    int level2Hours = level2Min / 60;
-    int level2RemainingMinutes = level2Min % 60;
+    int level2Hours = LEVEL2_MIN / 60;
+    int level2RemainingMinutes = LEVEL2_MIN % 60;
 
-    int level2DiffMinutes = level2Min - level1Min;
+    int level2DiffMinutes = LEVEL2_MIN - LEVEL1_MIN;
     int differenceHours = level2DiffMinutes / 60;
     int differenceRemainingMinutes = level2DiffMinutes % 60;
 
@@ -28,5 +28,5 @@ int main() {
     
     std::cout << "Level 2 took longer by: " << differenceHours << " hours and " << differenceRemainingMinutes << " minutes\n";
 
-    return 0;
+    return 0; 
 }
