@@ -1,5 +1,6 @@
 # cis165-lab3-
-Name: Kamryn Davis 
+Name: Kamryn Davis
+
 Course section: CIS-165-W099
 # Step-by-Step Process
 	_diamond.ccp:_ 
